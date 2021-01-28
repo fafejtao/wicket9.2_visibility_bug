@@ -1,5 +1,7 @@
 ## Project demonstrate BUG in wicket 9.2.0
 
+https://issues.apache.org/jira/browse/WICKET-6863
+
 Method `Component.setVisibilityAllowed` should call `onVisibleStateChanged()`
 as method `Component.setVisible` does.
 
